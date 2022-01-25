@@ -15,7 +15,7 @@
 	width: 25%;
 }
 
-.rodapePrincipal-contatoForm-emailInput {
+.rodapePrincipal-contatoForm-fieldset {
 	display:flex;
 }
 
@@ -24,3 +24,29 @@
 	flex-flow: column wrap;
 	height: 260px;
 }
+
+@media screen and (max-width: 768px){
+	.rodapePrincipal-navMap-list {
+		height: auto;
+	}
+
+	.rodapePrincipal-patrocinadores .container {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.rodapePrincipal-contatoForm {
+		width: 100%;
+		text-align: center;
+	}
+
+	.rodapePrincipal-patrocinadores-list{
+		margin: 0;
+		width: 100%;
+	}
+
+	.rodapePrincipal-contatoForm-fieldset {
+		justify-content: center;
+	}
+
+}	
