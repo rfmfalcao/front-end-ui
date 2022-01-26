@@ -21,19 +21,21 @@
 }
 
 .destaques__painel--imagem {
-    box-shadow: 0 2pc 10px 5px var(--cinza-escuro);
+    box-shadow: 0 0.5px 0.5px 0.5px #00000020;
     margin-bottom: .5rem;
     width: 100vw;
+    max-width: 600px;
 
 }
 
 .destaques__painel--texto {
    font-weight: 700;
    font-size: 1.2rem;
-   line-height: normal;  
+   line-height: normal;
+   margin: auto;  
 }
 
-.destaques__botao--botao {
+.destaques__botao {
     border-color: var(--vermelho-forte);
     color: var(--vermelho-forte);
     margin: 0 auto;
